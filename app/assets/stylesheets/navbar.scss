@@ -1,0 +1,38 @@
+.navbar {
+    font-family: 'Open Sans', sans-serif;
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    padding-top: 20px;
+    overflow-x: hidden;
+    background-color: #f0f1f7;
+}
+
+.navbar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #878787;
+    display: block;
+
+  }
+
+    .navbar a:hover {
+        color: #bfbfbf;
+      }
+
+.navbar h1 {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 24px;
+    color: #000000;
+    display: block;
+}
+
+@media screen and (max-height: 450px) {
+    .navbar {padding-top: 15px;}
+    .navbar a {font-size: 18px;}
+}
